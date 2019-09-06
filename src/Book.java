@@ -1,6 +1,9 @@
 
 
+import java.sql.Date;
 import java.time.LocalDate;
+import java.time.Month;
+import java.time.Year;
 
 public class Book implements Comparable<Book> {
     private final String title;
@@ -13,6 +16,8 @@ public class Book implements Comparable<Book> {
         this.title = title;
         this.author = author;
         this.publishedOn = publishedOn;
+        this.startedReadingOn = null;
+        this.finishedReadingOn = null;
     }
 
     public String getTitle() {
@@ -50,6 +55,18 @@ public class Book implements Comparable<Book> {
         this.finishedReadingOn = finishedOn;
         String message = "Finished date added";
         return message;
+    }
+    
+    public boolean publishedDateInputValidity(int montH , int datE, int yeaR ) {
+    	int month = montH;
+    	int daTE = datE;
+    	int year =yeaR;
+    	
+    	if((month >=1 && month <=12) && (daTE >=1 && daTE <=31) && (year >=1900 && year <=2019))
+    		return true;
+    	else return false;
+    	
+    	
     }
 
     @Override
