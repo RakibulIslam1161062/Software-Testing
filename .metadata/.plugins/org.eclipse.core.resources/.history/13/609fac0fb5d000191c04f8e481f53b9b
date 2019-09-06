@@ -1,0 +1,20 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+import org.junit.jupiter.api.Test;
+
+class BookshelfTest {
+
+	@Test
+	void Addtest() {
+		BookShelf bookShelf = new BookShelf(3);
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean check = bookShelf.add(newBook2);
+		assertEquals(check, true);
+		
+	}
+
+}

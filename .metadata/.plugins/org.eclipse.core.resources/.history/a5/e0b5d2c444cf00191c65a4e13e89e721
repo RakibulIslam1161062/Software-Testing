@@ -1,0 +1,19 @@
+
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+import java.time.LocalDate;
+import java.time.Month;
+class BookTesting {
+
+	@Test
+	void checkStartedREadingOnMethod() {
+		Book newBook = new Book("Java Bookd", "rakiba", LocalDate.of(2008, Month.MAY, 8));
+		
+		
+	}
+
+}

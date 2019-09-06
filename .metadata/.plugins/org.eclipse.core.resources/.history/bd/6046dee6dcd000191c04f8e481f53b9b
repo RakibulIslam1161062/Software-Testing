@@ -1,0 +1,15 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ProgressTesting {
+
+	@Test
+	void completetedTest() {
+		Progress  progress = new Progress(1, 1, 1);
+		progress.setCompleted(2);
+		int comReturn = progress.completed();
+		assertEquals(comReturn,2);
+	}
+
+}

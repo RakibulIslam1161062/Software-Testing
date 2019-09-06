@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookshelfTest" project="JunitTesting" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="BookshelfTest" time="0.025" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]">
+    <testcase name="Addtest2" classname="BookshelfTest" time="0.011" displayname="Addtest2()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest2()]"/>
+    <testcase name="Addtest3" classname="BookshelfTest" time="0.002" displayname="Addtest3()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest3()]"/>
+    <testcase name="ArrangeTest1" classname="BookshelfTest" time="0.001" displayname="ArrangeTest1()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:ArrangeTest1()]"/>
+    <testcase name="ArrangeTest2" classname="BookshelfTest" time="0.002" displayname="ArrangeTest2()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:ArrangeTest2()]"/>
+    <testcase name="ArrangeTest3" classname="BookshelfTest" time="0.001" displayname="ArrangeTest3()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:ArrangeTest3()]"/>
+    <testcase name="Addtest" classname="BookshelfTest" time="0.008" displayname="Addtest()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest()]"/>
+  </testsuite>
+</testrun>

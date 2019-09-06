@@ -1,0 +1,16 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BookFilterTEsting {
+
+	@Test
+	void afterCheck1() {
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		
+		BookPublishedYearFilter output = bookPublishedYearFilter.After(1900);
+		System.out.println(output);
+		
+	}
+
+}

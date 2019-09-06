@@ -1,0 +1,216 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+import org.junit.jupiter.api.Test;
+
+class BookFilterTEsting {
+
+	@Test
+	void afterYearFilter1() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.afterYearFilter(2019, newBook2);
+		
+		assertEquals(output, true);
+		
+	}
+	
+	@Test
+	void afterYearFilter2() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.afterYearFilter(1899, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	@Test
+	void afterYearFilter3() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.afterYearFilter(1900, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	
+	@Test
+	void afterYearFilter4() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.afterYearFilter(1901, newBook2);
+		
+		assertEquals(output, true);
+		
+	}
+	@Test
+	void afterYearFilter5() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.afterYearFilter(2020, newBook2);
+		
+		assertEquals(output, true);
+		
+	}
+	
+	@Test
+	void afterYearFilter6() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.afterYearFilter(2018, newBook2);
+		
+		assertEquals(output, true);
+		
+	}
+	@Test
+	void afterYearFilter7() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.afterYearFilter(1950, newBook2);
+		
+		assertEquals(output, true);
+		
+	}
+	@Test
+	void beforeYearFilter1() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.beforeYearFilter(2019, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	
+	@Test
+	void beforeYearFilter2() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.beforeYearFilter(1899, newBook2);
+		
+		assertEquals(output, true);
+		
+	}
+	@Test
+	void beforeYearFilter3() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.beforeYearFilter(1900, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	
+	@Test
+	void beforeYearFilter4() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.beforeYearFilter(1901, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	@Test
+	void beforeYearFilter5() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.beforeYearFilter(2020, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	
+	@Test
+	void beforeYearFilter6() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.beforeYearFilter(2018, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	@Test
+	void beforeYearFilter7() {
+		
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter();
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		Boolean output = bookPublishedYearFilter.beforeYearFilter(1950, newBook2);
+		
+		assertEquals(output, false);
+		
+	}
+	@Test
+	void compositeApply1() {
+		
+		
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		CompositeFilter compositeFilter = new CompositeFilter();
+		Boolean output = compositeFilter.apply(newBook2);
+		
+		
+		assertEquals(output, true);
+		
+	}
+	
+	@Test
+	void compositeApply2() {
+		
+		
+		LocalDate date = LocalDate.of(2000, Month.MAY, 1);
+		Book newBook2 = new Book("Java Book", "raakib",date );
+		CompositeFilter compositeFilter = new CompositeFilter();
+		Boolean output = compositeFilter.apply(newBook2);
+		
+		
+		assertEquals(output, true);
+		
+	}
+	
+	@Test
+	void addFilterMEthod1() {
+		
+		
+		BookFilter bookFilter = new BookPublishedYearFilter();
+		CompositeFilter compositeFilter = new CompositeFilter();
+		Boolean output = compositeFilter.addFilter(bookFilter);
+		
+		
+		assertEquals(output, true);
+		
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookshelfTest" project="JunitTesting" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="BookshelfTest" time="0.036" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]">
+    <testcase name="arrangeCompatorTest2" classname="BookshelfTest" time="0.003" displayname="arrangeCompatorTest2()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:arrangeCompatorTest2()]"/>
+    <testcase name="arrangeCompatorTest3" classname="BookshelfTest" time="0.001" displayname="arrangeCompatorTest3()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:arrangeCompatorTest3()]"/>
+    <testcase name="arrangeCompatorTest4" classname="BookshelfTest" time="0.001" displayname="arrangeCompatorTest4()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:arrangeCompatorTest4()]"/>
+    <testcase name="arrangeCompatorTest5" classname="BookshelfTest" time="0.007" displayname="arrangeCompatorTest5()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:arrangeCompatorTest5()]"/>
+    <testcase name="GroupByPublicationYearTest" classname="BookshelfTest" time="0.007" displayname="GroupByPublicationYearTest()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:GroupByPublicationYearTest()]"/>
+    <testcase name="Addtest2" classname="BookshelfTest" time="0.001" displayname="Addtest2()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest2()]"/>
+    <testcase name="Addtest3" classname="BookshelfTest" time="0.001" displayname="Addtest3()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest3()]"/>
+    <testcase name="ArrangeTest1" classname="BookshelfTest" time="0.001" displayname="ArrangeTest1()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:ArrangeTest1()]"/>
+    <testcase name="ArrangeTest2" classname="BookshelfTest" time="0.002" displayname="ArrangeTest2()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:ArrangeTest2()]"/>
+    <testcase name="ArrangeTest3" classname="BookshelfTest" time="0.001" displayname="ArrangeTest3()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:ArrangeTest3()]"/>
+    <testcase name="arrangeCompatorTest" classname="BookshelfTest" time="0.002" displayname="arrangeCompatorTest()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:arrangeCompatorTest()]"/>
+    <testcase name="Addtest" classname="BookshelfTest" time="0.008" displayname="Addtest()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest()]"/>
+  </testsuite>
+</testrun>

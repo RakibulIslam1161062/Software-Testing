@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookshelfTest" project="JunitTesting" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="BookshelfTest" time="0.026" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]">
+    <testcase name="Addtest2" classname="BookshelfTest" time="0.013" displayname="Addtest2()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest2()]"/>
+    <testcase name="Addtest3" classname="BookshelfTest" time="0.002" displayname="Addtest3()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest3()]"/>
+    <testcase name="Addtest" classname="BookshelfTest" time="0.002" displayname="Addtest()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:Addtest()]"/>
+    <testcase name="booksTest" classname="BookshelfTest" time="0.009" displayname="booksTest()" uniqueid="[engine:junit-jupiter]/[class:BookshelfTest]/[method:booksTest()]"/>
+  </testsuite>
+</testrun>

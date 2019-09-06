@@ -1,0 +1,38 @@
+
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+import java.time.LocalDate;
+import java.time.Month;
+class BookTesting {
+
+	@Test
+	void checkStartedREadingOnMethod1() {
+		Book newBook = new Book("Java Book", "rakib", LocalDate.of(2019, Month.MAY, 8));
+		String successMessage = newBook.startedReadingOn(LocalDate.of(2019, Month.MAY, 9));
+		assertEquals(successMessage, "Start date added");
+		
+		
+	}
+	@Test
+	void checkStartedREadingOnMethod2() {
+		Book newBook = new Book("Java Book", "rakib", LocalDate.of(2019, Month.MAY, 8));
+		String successMessage = newBook.startedReadingOn(LocalDate.of(2019, Month.MAY, 9));
+		assertEquals(successMessage, "Start date adde");
+		
+		
+	}
+	
+	@Test
+	void checkfinishedREadingOnMethod1() {
+		Book newBook = new Book("Java Book", "rakib", LocalDate.of(2019, Month.MAY, 8));
+		String successMessage = newBook.startedReadingOn(LocalDate.of(2019, Month.MAY, 9));
+		assertEquals(successMessage, "Finished date added");
+		
+		
+	}
+
+}

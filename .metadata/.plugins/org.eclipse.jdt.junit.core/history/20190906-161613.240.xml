@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookFilterTEsting" project="JunitTesting" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="BookFilterTEsting" time="0.021" uniqueid="[engine:junit-jupiter]/[class:BookFilterTEsting]">
+    <testcase name="afterYearFilter1" classname="BookFilterTEsting" time="0.021" displayname="afterYearFilter1()" uniqueid="[engine:junit-jupiter]/[class:BookFilterTEsting]/[method:afterYearFilter1()]"/>
+  </testsuite>
+</testrun>

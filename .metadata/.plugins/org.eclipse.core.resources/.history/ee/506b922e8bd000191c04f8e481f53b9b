@@ -1,0 +1,25 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+import org.junit.jupiter.api.Test;
+
+class BookFilterTEsting {
+
+	@Test
+	void afterCheck1() {
+		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
+		Book newBook2 = new Book("Java Book", "rakib",date );
+		BookPublishedYearFilter bookPublishedYearFilter = new BookPublishedYearFilter(newBook2);
+		bookPublishedYearFilter.After(1900);
+		Boolean check = bookPublishedYearFilter.apply(newBook2);
+		System.out.println(check);
+		
+		
+		assertEquals(check,false);
+		
+		
+	}
+
+}
