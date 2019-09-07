@@ -121,7 +121,7 @@ class BookshelfTest {
 		bookShelf.add(newBook3);
 		bookShelf.add(newBook5);
 		bookListReturn = (ArrayList<Book>) bookShelf.arrange(Comparator.naturalOrder());
-		System.out.println(bookListReturn+" Yo");
+		
 		assertNotEquals(bookListReturn, bookList);	
 	}
 	
@@ -216,7 +216,7 @@ class BookshelfTest {
 		bookShelf.add(newBook3);
 		bookShelf.add(newBook5);
 		maps =  bookShelf.groupByPublicationYear();
-		System.out.println(maps +"yo 2");
+		
 		assertEquals(maps.isEmpty(),false );		
 	}
 	
@@ -230,7 +230,9 @@ class BookshelfTest {
 		LocalDate date = LocalDate.of(1900, Month.MAY, 8);
 		LocalDate date2 = LocalDate.of(1920, Month.MAY, 8);
 		Book newBook3 = new Book("zava Book", "zakib",date );
-		Book newBook5 = new Book("Java Book", "rakib",date2 );	
+		Book newBook5 = new Book("Java Book", "rakib",date2 );
+		
+		
 		bookShelf.add(newBook3);
 		bookShelf.add(newBook5);
 		maps =  bookShelf.groupByPublicationYear();

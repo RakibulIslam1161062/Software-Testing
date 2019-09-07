@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="BookFilterTEsting" project="JunitTesting" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="BookFilterTEsting" time="0.023" uniqueid="[engine:junit-jupiter]/[class:BookFilterTEsting]">
-    <testcase name="beforeYearFilter3" classname="BookFilterTEsting" time="0.013" displayname="beforeYearFilter3()" uniqueid="[engine:junit-jupiter]/[class:BookFilterTEsting]/[method:beforeYearFilter3()]"/>
-    <testcase name="afterYearFilter1" classname="BookFilterTEsting" time="0.002" displayname="afterYearFilter1()" uniqueid="[engine:junit-jupiter]/[class:BookFilterTEsting]/[method:afterYearFilter1()]"/>
-    <testcase name="afterYearFilter2" classname="BookFilterTEsting" time="0.001" displayname="afterYearFilter2()" uniqueid="[engine:junit-jupiter]/[class:BookFilterTEsting]/[method:afterYearFilter2()]"/>
-    <testcase name="afterYearFilter4" classname="BookFilterTEsting" time="0.007" displayname="afterYearFilter4()" uniqueid="[engine:junit-jupiter]/[class:BookFilterTEsting]/[method:afterYearFilter4()]"/>
-  </testsuite>
-</testrun>

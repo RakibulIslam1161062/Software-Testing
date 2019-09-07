@@ -197,10 +197,14 @@ class BookFilterTEsting {
 	
 	@Test
 	void addFilterMEthod1() { 
+		
+		
 		BookFilter bookFilter = new CompositeFilter();
 		CompositeFilter compositeFilter = new CompositeFilter();
 		
 		boolean filters =  compositeFilter.addFilter(bookFilter);
+		
+		
 		assertEquals(filters, true);
 		
 		

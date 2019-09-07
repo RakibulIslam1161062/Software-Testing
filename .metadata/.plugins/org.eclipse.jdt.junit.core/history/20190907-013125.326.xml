@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ProgressTesting" project="JunitTesting" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="ProgressTesting" time="0.017" uniqueid="[engine:junit-jupiter]/[class:ProgressTesting]">
-    <testcase name="completetedTest2" classname="ProgressTesting" time="0.009" displayname="completetedTest2()" uniqueid="[engine:junit-jupiter]/[class:ProgressTesting]/[method:completetedTest2()]"/>
-    <testcase name="completetedTest" classname="ProgressTesting" time="0.008" displayname="completetedTest()" uniqueid="[engine:junit-jupiter]/[class:ProgressTesting]/[method:completetedTest()]"/>
-  </testsuite>
-</testrun>

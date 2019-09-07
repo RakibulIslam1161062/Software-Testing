@@ -78,7 +78,7 @@ class BookshelfTest {
 		Book newBook4 = new Book("Java Book", "rakib",date );
 		bookShelf.add(newBook4);
 		bookTitle =  (ArrayList<Book>) bookShelf.arrange();
-		System.out.println(bookTitle);
+		
 		assertEquals(bookTitle,bookTitle2);	
 	}
 	
@@ -121,7 +121,7 @@ class BookshelfTest {
 		bookShelf.add(newBook3);
 		bookShelf.add(newBook5);
 		bookListReturn = (ArrayList<Book>) bookShelf.arrange(Comparator.naturalOrder());
-		System.out.println(bookListReturn+" Yo");
+		
 		assertNotEquals(bookListReturn, bookList);	
 	}
 	
@@ -216,7 +216,7 @@ class BookshelfTest {
 		bookShelf.add(newBook3);
 		bookShelf.add(newBook5);
 		maps =  bookShelf.groupByPublicationYear();
-		System.out.println(maps +"yo 2");
+		
 		assertEquals(maps.isEmpty(),false );		
 	}
 	
@@ -230,7 +230,9 @@ class BookshelfTest {
 		LocalDate date = LocalDate.of(1900, Month.MAY, 8);
 		LocalDate date2 = LocalDate.of(1920, Month.MAY, 8);
 		Book newBook3 = new Book("zava Book", "zakib",date );
-		Book newBook5 = new Book("Java Book", "rakib",date2 );	
+		Book newBook5 = new Book("Java Book", "rakib",date2 );
+		
+		
 		bookShelf.add(newBook3);
 		bookShelf.add(newBook5);
 		maps =  bookShelf.groupByPublicationYear();
@@ -495,7 +497,8 @@ class BookshelfTest {
 	@Test
 	void parcentageInProgress2() {
 
-		ArrayList<Book> bookList = new ArrayList<Book>();
+ArrayList<Book> bookList = new ArrayList<Book>();
+		
 		BookShelf bookShelf = new BookShelf(3);
 		LocalDate date = LocalDate.of(1900, Month.MAY, 8);
 		LocalDate date2 = LocalDate.of(1920, Month.MAY, 8);
@@ -518,13 +521,16 @@ class BookshelfTest {
 	
 	@Test
 	void parcentageInProgress3() {
+
 		ArrayList<Book> bookList = new ArrayList<Book>();
+		
 		BookShelf bookShelf = new BookShelf(3);
 		LocalDate date = LocalDate.of(1900, Month.MAY, 8);
 		LocalDate date2 = LocalDate.of(1920, Month.MAY, 8);
 		Book newBook3 = new Book("zava", "zakib",date );
 		Book newBook4 = new Book("zava", "zakib",date );
 		Book newBook5 = new Book("zava", "zakib",date );
+		
 		bookShelf.add(newBook3);
 		bookShelf.add(newBook4);
 		bookShelf.add(newBook5);
@@ -532,6 +538,7 @@ class BookshelfTest {
 		newBook3.startedReadingOn(LocalDate.of(1901, Month.MAY, 8));
 		newBook5.startedReadingOn(LocalDate.of(1901, Month.MAY, 8));
 		System.out.println(bookShelf.books);
+		
 		int parcentage = bookShelf.parcentageInProgress();
 		System.out.println(parcentage);
 		assertEquals(parcentage,100);
@@ -544,14 +551,20 @@ class BookshelfTest {
 		BookShelf bookShelf = new BookShelf(3);
 		bookShelf.setCapacity(5);
 		int capacity = bookShelf.getCapacity();
+		
+		
 		assertEquals(capacity,5);
 			
 	}
+	
 	@Test
 	void capacityTesting2() {
+		
 		BookShelf bookShelf = new BookShelf(3);
 		bookShelf.setCapacity(5);
 		int capacity = bookShelf.getCapacity();
+		
+		
 		assertNotEquals(capacity,3);
 			
 	}

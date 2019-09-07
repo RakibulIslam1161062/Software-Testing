@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ProgressTesting.toReadTest2" project="JunitTesting" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="ProgressTesting" time="0.016" uniqueid="[engine:junit-jupiter]/[class:ProgressTesting]">
-    <testcase name="toReadTest2" classname="ProgressTesting" time="0.016" displayname="toReadTest2()" uniqueid="[engine:junit-jupiter]/[class:ProgressTesting]/[method:toReadTest2()]"/>
-  </testsuite>
-</testrun>

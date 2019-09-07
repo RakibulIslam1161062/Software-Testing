@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Book"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.time.Year"/>
+    <fullyQualifiedTypeName name="com.sun.java.swing.plaf.motif.resources.motif"/>
+    <fullyQualifiedTypeName name="BookPublishedYearFilter"/>
+    <fullyQualifiedTypeName name="BookFilter"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="CompositeFilter"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.resources.compiler"/>
+    <fullyQualifiedTypeName name="Book"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.time.Month"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.hamcrest.CoreMatchers"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="BookShelf"/>
+    <fullyQualifiedTypeName name="Progress"/>
 </qualifiedTypeNameHistroy>

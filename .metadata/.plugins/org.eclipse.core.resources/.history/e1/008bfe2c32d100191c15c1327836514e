@@ -9,6 +9,7 @@ import java.time.LocalDate;
 import java.time.Month;
 class BookTesting {
 	
+	
 	@Test
 	void checkPublishedDateValidity0() {
 		LocalDate date = LocalDate.of(1900, Month.MAY, 7);
@@ -356,14 +357,14 @@ class BookTesting {
 	void checkToStringMethod1() {
 		Book newBook = new Book("Java Book", "rakib", LocalDate.of(2019, Month.MAY, 8));
 		String  outputCode = newBook.toString();
-		System.out.println(outputCode);
+		
 		assertEquals(outputCode, "Book{title='Java Book', author='rakib', publishedOn=2019-05-08}");	
 	}
 	@Test
 	void checkToStringMethod2() {
 		Book newBook = new Book("Java Book", "", LocalDate.of(2019, Month.MAY, 8));
 		String  outputCode = newBook.toString();
-		System.out.println(outputCode);
+		
 		assertEquals(outputCode, "Book{title='Java Book', author='', publishedOn=2019-05-08}");	
 	}
 	@Test
